@@ -4,5 +4,5 @@ services:
     container_name: fashion-mnist-downloader
     build: ./
     volumes:
-      - ./dataset/train:/train
-      - ./dataset/test:/test
+      - ./fashion_mnist/train:/train
+      - ./fashion_mnist/test:/test
